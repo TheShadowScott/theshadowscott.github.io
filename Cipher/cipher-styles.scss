@@ -1,0 +1,34 @@
+$background-color: hsl(0deg,0%,35%);
+$foreground-color: white;
+$light-blue: hsl(200deg, 100%, 50%);
+
+body, html
+{
+    height: 100%;
+    width: 100%;
+    background-color: $background-color;
+    color: $foreground-color;
+}
+
+table 
+{
+    text-align: center;
+    tr.it > td
+    {
+        font-style: italic;
+    }
+}
+
+a
+{
+    color: $light-blue;
+    text-decoration: none;
+    &:hover
+    {
+        text-decoration: underline;
+    }
+}
+.it
+{
+    font-style: italic;
+}

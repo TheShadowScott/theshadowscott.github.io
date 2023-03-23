@@ -1,0 +1,27 @@
+body, html {
+  height: 100%;
+  width: 100%;
+  background-color: hsl(0deg, 0%, 35%);
+  color: white;
+}
+
+table {
+  text-align: center;
+}
+table tr.it > td {
+  font-style: italic;
+}
+
+a {
+  color: hsl(200deg, 100%, 50%);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.it {
+  font-style: italic;
+}
+
+/*# sourceMappingURL=cipher-styles.css.map */
