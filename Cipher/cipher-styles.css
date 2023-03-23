@@ -3,6 +3,7 @@ body, html {
   width: 100%;
   background-color: hsl(0deg, 0%, 35%);
   color: white;
+  padding-left: 0.25rem;
 }
 
 table {
