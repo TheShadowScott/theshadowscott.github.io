@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cipher Translator</title>
+    <style>
+        table {
+            text-align: center;
+        }
+        tr.it > td {
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <h1>NF Cipher About &amp; Translator</h1>
+    <a href="#translator">Jump to Translator</a>
+    <h2>About</h2>
+    <h3>Consonants / Glyphs</h3>
+    <p>
+        Given the absence of an official Pyr's cypher (when this was first made at least), one may have decided to make an alternative. This is that alternative. Whilst it functions <em>similarly</em> to a substitution cipher, there are a few notable differences:
+        <ul>
+            <li>This cipher uses an <em>impure abjad</em>, not an alphabet (meaning that vowels are represented by optional diacritics, not their own glyphs)</li>
+            <li>There are additional glyphs for certain letter combinations (these being "ch", "ll", "ss", "sh", "tt", "th" and the final "s" of a word)</li>
+            <li>As intended this cypher uses <a href="https://en.wikipedia.org/wiki/Scriptio_continua" style="font-style: italic;">scriptura continua</a>. <strong>Meaning there is no spaces between words.</strong></li>
+            <li>The letter combination "qu" shares a <em><strong>single glyph</strong></em></li>
+        </ul>
+        The above are meant to implement an aura of confusion as they do not follow the standard writing conventions of common. The glyphs are as follows:
+    </p>
+    <div>
+        <table>
+            <tr>
+                <td><img src="./Glyphs/b.png" width="50px"></td>
+                <td><img src="./Glyphs/c.png" width="50px"></td>
+                <td><img src="./Glyphs/1.png" width="50px"></td>
+                <td><img src="./Glyphs/d.png" width="50px"></td>
+                <td><img src="./Glyphs/f.png" width="50px"></td>
+                <td><img src="./Glyphs/g.png" width="50px"></td>
+                <td><img src="./Glyphs/h.png" width="50px"></td>
+                <td><img src="./Glyphs/j.png" width="50px"></td>
+                <td><img src="./Glyphs/k.png" width="50px"></td>
+                <td><img src="./Glyphs/l.png" width="50px"></td>
+                <td><img src="./Glyphs/2.png" width="50px"></td>
+                <td><img src="./Glyphs/m.png" width="50px"></td>
+                <td><img src="./Glyphs/n.png" width="50px"></td>
+                <td><img src="./Glyphs/p.png" width="50px"></td>
+                <td><img src="./Glyphs/q.png" width="50px"></td>
+                <td><img src="./Glyphs/r.png" width="50px"></td>
+                <td><img src="./Glyphs/s.png" width="50px"></td>
+                <td><img src="./Glyphs/3.png" width="50px"></td>
+                <td><img src="./Glyphs/4.png" width="50px"></td>
+            </tr>
+            <tr class="it">
+                <td>b</td>
+                <td>c</td>
+                <td>ch</td>
+                <td>d</td>
+                <td>f</td>
+                <td>g</td>
+                <td>h</td>
+                <td>j</td>
+                <td>k</td>
+                <td>l</td>
+                <td>ll</td>
+                <td>m</td>
+                <td>n</td>
+                <td>p</td>
+                <td>qu</td>
+                <td>r</td>
+                <td>s</td>
+                <td>s (fin.)</td>
+                <td>sh</td>
+            </tr>
+            <tr>
+                
+                <td><img src="./Glyphs/5.png" width="50px"></td>
+                <td><img src="./Glyphs/t.png" width="50px"></td>
+                <td><img src="./Glyphs/6.png" width="50px"></td>
+                <td><img src="./Glyphs/7.png" width="50px"></td>
+                <td><img src="./Glyphs/v.png" width="50px"></td>
+                <td><img src="./Glyphs/w.png" width="50px"></td>
+                <td><img src="./Glyphs/x.png" width="50px"></td>
+                <td><img src="./Glyphs/y.png" width="50px"></td>
+                <td><img src="./Glyphs/z.png" width="50px"></td>
+            </tr>
+            <tr class="it">
+                <td>ss</td>
+                <td>t</td>
+                <td>tt</td>
+                <td>th</td>
+                <td>v</td>
+                <td>w</td>
+                <td>x</td>
+                <td>y</td>
+                <td>z</td>
+            </tr>
+        </table>
+    </div>
+    <h3>Vowel Diacritics</h3>
+    <h4>Placement</h4>
+    <p>
+        Diacritics placed <em>above</em> a consonant (or another diacritic) show that that vowel goes <em>after</em> what they are placed on. Diacritics placed <em>below</em> a consonant (or another diacritic) show that that vowel goes <em>before</em> what they are placed on.
+    </p>
+    <h4>Marks</h4>
+    <table>
+        <tr>
+            <td><img src="./Glyphs/a.png" width="50px"></td>
+            <td><img src="./Glyphs/e.png" width="50px"></td>
+            <td><img src="./Glyphs/i.png" width="50px"></td>
+            <td><img src="./Glyphs/o.png" width="50px"></td>
+            <td><img src="./Glyphs/u.png" width="50px"></td>
+        </tr>
+        <tr class="it">
+            <td>a</td>
+            <td>e</td>
+            <td>i</td>
+            <td>o</td>
+            <td>u</td>
+        </tr>
+    </table>
+    <hr margin="3rem">
+    <h3 style="margin-bottom: none;">Translator</h3>
+    <small style="font-style: italic">This does not show vowel diacritics, only consonant glyphs.</small>
+    <div id="translator" style="margin-top: 3rem;">
+        <input type="text" name="beforeText" id="beforeText" style="width: 75%;">
+        <button onclick="javascript:updateText()">Encode :)</button>
+        <p id="finishedText"></p>
+    </div>
+    <script>
+        function _0x43ad(){const _0x54421c=['367698pLbCoQ','toLowerCase','2313FTuzcA','4010fWHxac','729817GZHhhe','1651944GetvXq','833455dKDrbT','replace','value','27831lZwINt','innerHTML','32rcaWkX','split','getElementById','<img\x20width=\x2240px\x22\x20src=\x22./Glyphs/','9683ftUgnc','5ohMiOH','38aycWiQ'];_0x43ad=function(){return _0x54421c;};return _0x43ad();}function _0x349c(_0x46c06e,_0x2bdfb7){const _0x43adfb=_0x43ad();return _0x349c=function(_0x349c1f,_0x43a006){_0x349c1f=_0x349c1f-0x1c4;let _0x5b70a9=_0x43adfb[_0x349c1f];return _0x5b70a9;},_0x349c(_0x46c06e,_0x2bdfb7);}(function(_0x277204,_0x5304fc){const _0x100392=_0x349c,_0x5401e8=_0x277204();while(!![]){try{const _0x35e4ac=parseInt(_0x100392(0x1d0))/0x1*(-parseInt(_0x100392(0x1d2))/0x2)+parseInt(_0x100392(0x1ca))/0x3*(parseInt(_0x100392(0x1cc))/0x4)+parseInt(_0x100392(0x1d1))/0x5*(parseInt(_0x100392(0x1d3))/0x6)+parseInt(_0x100392(0x1c7))/0x7+parseInt(_0x100392(0x1c6))/0x8+parseInt(_0x100392(0x1d5))/0x9*(-parseInt(_0x100392(0x1c4))/0xa)+-parseInt(_0x100392(0x1c5))/0xb;if(_0x35e4ac===_0x5304fc)break;else _0x5401e8['push'](_0x5401e8['shift']());}catch(_0x5afed7){_0x5401e8['push'](_0x5401e8['shift']());}}}(_0x43ad,0x1a49c));function updateText(){const _0x5c5bf8=_0x349c;let _0x29a7f3=document[_0x5c5bf8(0x1ce)]('beforeText')[_0x5c5bf8(0x1c9)],_0x309e12=_0x29a7f3[_0x5c5bf8(0x1d4)]()[_0x5c5bf8(0x1c8)](/[aeiou0-9]/g,'')[_0x5c5bf8(0x1c8)]('ch','1')[_0x5c5bf8(0x1c8)]('ll','2')['replace'](/(s[^a-z]+)/,'3')['replace']('ss','4')[_0x5c5bf8(0x1c8)]('sh','5')[_0x5c5bf8(0x1c8)]('tt','6')[_0x5c5bf8(0x1c8)]('th','7'),_0x1b011a='';for(let _0x12464d of _0x309e12[_0x5c5bf8(0x1cd)]('')){_0x1b011a+=_0x5c5bf8(0x1cf)+_0x12464d+'.png\x22\x20alt=\x22'+_0x12464d+'\x22>';}finishedText[_0x5c5bf8(0x1cb)]=_0x1b011a;}
+    </script>
+</body>
+</html>
