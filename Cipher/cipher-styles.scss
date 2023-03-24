@@ -1,6 +1,6 @@
 $background-color: hsl(0deg,0%,35%);
 $foreground-color: white;
-$light-blue: hsl(200deg, 100%, 50%);
+$light-blue: hsl(200deg, 76%, 68%);
 
 body, html
 {
@@ -9,6 +9,7 @@ body, html
     background-color: $background-color;
     color: $foreground-color;
     padding-left: 0.25rem;
+    padding-top: 0.25rem;
 }
 
 table 
