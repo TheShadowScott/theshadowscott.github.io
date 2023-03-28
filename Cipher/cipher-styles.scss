@@ -4,12 +4,8 @@ $light-blue: hsl(200deg, 76%, 68%);
 
 body, html
 {
-    height: 100%;
-    width: 100%;
     background-color: $background-color;
     color: $foreground-color;
-    padding-left: 0.25rem;
-    padding-top: 0.25rem;
 }
 
 table 
@@ -33,4 +29,35 @@ a
 .it
 {
     font-style: italic;
+}
+
+@media screen and (max-width: 1035px)
+{
+    body, html
+    {
+        height: auto;
+        width: 95%;
+    }
+    p, p *, p **, p ***, p ****, p *****
+    {
+        display: flex;
+        flex-wrap: wrap;
+        padding-right: 10px;
+    }
+    .desktop-table
+    {
+        display: none;
+    }
+}
+@media screen and (min-width: 1035px)
+{
+    body, html
+    {
+        height: 100%;
+        width: auto;
+    }
+    .mobile-table
+    {
+        display: none;
+    }
 }

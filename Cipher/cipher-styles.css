@@ -1,10 +1,6 @@
 body, html {
-  height: 100%;
-  width: 100%;
   background-color: hsl(0deg, 0%, 35%);
   color: white;
-  padding-left: 0.25rem;
-  padding-top: 0.25rem;
 }
 
 table {
@@ -24,6 +20,30 @@ a:hover {
 
 .it {
   font-style: italic;
+}
+
+@media screen and (max-width: 1035px) {
+  body, html {
+    height: auto;
+    width: 95%;
+  }
+  p, p *, p **, p ***, p ****, p ***** {
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 10px;
+  }
+  .desktop-table {
+    display: none;
+  }
+}
+@media screen and (min-width: 1035px) {
+  body, html {
+    height: 100%;
+    width: auto;
+  }
+  .mobile-table {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=cipher-styles.css.map */
