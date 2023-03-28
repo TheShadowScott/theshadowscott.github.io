@@ -1,6 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Source+Sans+Pro:wght@300&display=swap");
 body, html {
   background-color: hsl(0deg, 0%, 35%);
   color: white;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 table {
@@ -8,6 +10,7 @@ table {
 }
 table tr.it > td {
   font-style: italic;
+  font-family: "Libre Baskerville", serif;
 }
 
 a {
@@ -16,6 +19,9 @@ a {
 }
 a:hover {
   text-decoration: underline;
+}
+a:active, a:visited {
+  color: hsl(200deg, 76%, 48%);
 }
 
 .it {
@@ -38,12 +44,15 @@ a:hover {
 }
 @media screen and (min-width: 1035px) {
   body, html {
-    height: 100%;
+    height: auto;
     width: auto;
   }
   .mobile-table {
     display: none;
   }
+}
+#translator {
+  margin-top: 1rem;
 }
 
 /*# sourceMappingURL=cipher-styles.css.map */
