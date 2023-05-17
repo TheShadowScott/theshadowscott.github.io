@@ -119,15 +119,16 @@
   color: hsla(108, 100%, 80%, 0.8);
   transition: all 0.1s ease-in-out;
 }
-.page-link .disabled-page-link {
+
+.disabled-page-link {
   color: var(--bs-body-color);
   text-decoration: none;
 }
-.page-link .disabled-page-link:hover {
+.disabled-page-link:hover {
   color: var(--bs-body-color) !important;
   text-decoration: none !important;
 }
-.page-link .disabled-page-link:active {
+.disabled-page-link:active {
   color: var(--bs-body-color) !important;
   text-decoration: none !important;
 }/*# sourceMappingURL=sytles.css.map */
