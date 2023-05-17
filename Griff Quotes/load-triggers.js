@@ -5,7 +5,7 @@ const pageLinks = document.querySelectorAll('.page-link');
 (function () {
 
     quotes.forEach(quote => {
-        quote.innerHTML = `&ldquo;${quote.innerText}&rdquo;`;
+        quote.innerHTML = `&ldquo;${quote.innerHTML}&rdquo;`;
     })
 
     cards.forEach(card => {
@@ -27,8 +27,8 @@ function loadRandomQuote() {
 
 function setPage(pageNum) {
     pages.forEach(page => {
-        page.style.visibility = 'hidden';
         page.style.height = '0px';
+        page.style.visibility = 'hidden';
     });
     const page = document.querySelector(`#page${pageNum}`);
     page.style.height = 'auto';
