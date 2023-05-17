@@ -26,13 +26,18 @@ function loadRandomQuote() {
 }
 
 function setPage(pageNum) {
+    var index = 1;
     pages.forEach(page => {
+        if (index++ == pageNum) return;
         page.style.height = '0px';
         page.style.visibility = 'hidden';
     });
-    const page = document.querySelector(`#page${pageNum}`);
-    page.style.height = 'auto';
-    page.style.visibility = 'visible';
+
+    setTimeout(() => {
+        const page = document.querySelector(`#page${pageNum}`);
+        page.style.height = 'auto';
+        page.style.visibility = 'visible';
+    }, 200)
 
     pageLinks.forEach(link => {
         link.classList.remove('disabled-page-link');
