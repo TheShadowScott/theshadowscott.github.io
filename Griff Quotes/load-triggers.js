@@ -2,6 +2,9 @@ const quotes = document.querySelectorAll('.quotation');
 const cards = document.querySelectorAll('.card');
 const pages = document.querySelectorAll('.page');
 const pageLinks = document.querySelectorAll('.page-link');
+
+let active = 1;
+
 (function () {
 
     quotes.forEach(quote => {
@@ -51,5 +54,16 @@ function setPage(pageNum) {
     const link = document.querySelector(`#page${pageNum}-link`);
     link.classList.add('disabled-page-link');
 
+    active = pageNum;
     return false;
+}
+
+const next = _ => {
+    if (active == pages.length) setPage(1);
+    else setPage(active + 1);
+}
+
+const prev = _ => {
+    if (active == 1) setPage(pages.length);
+    else setPage(active - 1);
 }
