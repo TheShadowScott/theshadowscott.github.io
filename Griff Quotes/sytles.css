@@ -131,4 +131,13 @@
 .disabled-page-link:active {
   color: var(--bs-body-color) !important;
   text-decoration: none !important;
+}
+
+.copyleft {
+  display: inline-block;
+  transform: rotate(180deg) translate(0px, -2px);
+}
+
+footer {
+  padding-top: 1rem;
 }/*# sourceMappingURL=sytles.css.map */

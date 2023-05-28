@@ -29,15 +29,17 @@ function setPage(pageNum) {
     var index = 1;
     pages.forEach(page => {
         if (index++ == pageNum) return;
-        page.style.height = '0px';
+        page.style.height = '0vh';
         page.style.visibility = 'hidden';
+        page.style.display = 'none';
     });
 
-    setTimeout(() => {
+    //setTimeout(() => {
         const page = document.querySelector(`#page${pageNum}`);
         page.style.height = 'auto';
         page.style.visibility = 'visible';
-    }, 200)
+        page.style.display = 'block';
+    //}, 200)
 
     pageLinks.forEach(link => {
         link.classList.remove('disabled-page-link');
