@@ -24,7 +24,11 @@ function loadRandomQuote() {
     let random = randomQuote();
     document.getElementById('randomQuote').innerHTML = random.innerHTML;
 }
-
+/**
+ * Sets visibility of all pages to hidden except for the page with the given page number
+ * @param {Number} pageNum 
+ * @returns {Boolean} false
+ */
 function setPage(pageNum) {
     var index = 1;
     pages.forEach(page => {
