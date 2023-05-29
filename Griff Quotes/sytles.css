@@ -139,5 +139,15 @@
 }
 
 footer {
-  padding-top: 1rem;
+  padding-top: 0.25rem;
+}
+
+#cc0 {
+  padding-top: none;
+  mix-blend-mode: multiply;
+  filter: invert(100%);
+}
+
+.border-black {
+  border: 2px solid black;
 }/*# sourceMappingURL=sytles.css.map */
