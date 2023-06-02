@@ -139,14 +139,14 @@
 }
 
 footer {
-  padding-top: 0.25rem;
-  padding-bottom: 3.6666666667rem;
+  padding: 0.6666666667rem 0;
 }
 
 #cc0 {
   padding-top: none;
   mix-blend-mode: multiply;
-  filter: invert(100%);
+  filter: invert(1) brightness(1.5);
+  color: whitesmoke;
 }
 
 .border-black {

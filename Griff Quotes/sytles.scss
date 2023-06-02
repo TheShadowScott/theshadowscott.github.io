@@ -153,15 +153,15 @@
 
 footer
 {
-    padding-top: 0.25rem;
-    padding-bottom: math.div(11rem,3);
+    padding: math.div(2rem,3) 0;
 }
 
 #cc0
 {
     padding-top: none;
     mix-blend-mode: multiply;
-    filter: invert(100%);
+    filter: invert(1) brightness(1.5);
+    color: whitesmoke;
 }
 
 .border-black
