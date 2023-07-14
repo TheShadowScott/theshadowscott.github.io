@@ -73,3 +73,28 @@ const prev = () => {
     if (active == 1) setPage(pages.length);
     else setPage(active - 1);
 }
+
+
+/**
+ * @param {String} subStr 
+ * @returns {Boolean} true if the string contains the given substring, false otherwise
+ */
+String.prototype.contains = function (subStr) {
+    return this.indexOf(subStr) != -1;
+}
+/**
+ * Locates all quotes that contain the given string
+ * @param {String} string 
+ * @returns {Array<Element>} an array of all quotes that contain the given string
+ */
+function locateQuote(string) {
+    let retArr = [];
+    let quoteArr = Array.from(quotes);
+
+    for (let i = 0; i < quoteArr.length; i++) {
+        let quote = quoteArr[i];
+        if (quote.innerText.contains(string)) retArr.push(quote);
+    }
+
+    return retArr;
+}
