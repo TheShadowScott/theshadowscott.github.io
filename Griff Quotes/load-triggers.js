@@ -25,7 +25,7 @@ const randomQuote = () => quotes[Math.floor(Math.random() * quotes.length)]
 
 function loadRandomQuote() {
     let random = randomQuote();
-    document.getElementById('randomQuote').innerHTML = randomTru.innerHTML;
+    document.getElementById('randomQuote').innerHTML = random.innerHTML;
 }
 /**
  * Sets visibility of all pages to hidden except for the page with the given page number
