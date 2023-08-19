@@ -85,7 +85,7 @@ String.prototype.contains = function (subStr) {
 /**
  * Locates all quotes that contain the given string
  * @param {String} string 
- * @returns {Array<Element>} an array of all quotes that contain the given string
+ * @returns {Element[]} an array of all quotes that contain the given string
  */
 function locateQuote(string) {
     let retArr = [];
