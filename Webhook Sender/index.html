@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Discord Webhook Sender</title>
+</head>
+
+<body>
+    <h1 class="title">Webhook Sender</h1>
+    <form method="post" action="javascript:void(0);" id="webhook-form">
+        <label for="webhook-url">Webhook URL*</label><br>
+        <input type="text" id="webhook-url" class="input-field" name="webhook-url" placeholder="Webhook URL"
+            required><br>
+        <div class="sub-field">
+            <h2>Author</h2>
+            <label for="author-name">Name</label><br>
+            <input type="text" id="author-name" class="input-field" name="author-name" placeholder="Name"><br>
+            <label for="author-icon">Icon URL</label><br>
+            <input type="text" id="author-icon" class="input-field" name="author-icon" placeholder="Icon URL"><br>
+        </div>
+        <div class="sub-field">
+            <h2>Blob</h2>
+            <label for="blob-title">Title</label><br>
+            <input type="text" id="blob-title" class="input-field" name="blob-title" placeholder="Title"><br>
+            <label for="blob-description">Content</label><br>
+            <input type="text" id="blob-description" class="input-field" name="blob-description"
+                placeholder="Description"><br>
+        </div>
+        <div class="sub-field" id="embeds">
+            <h2>Embeds</h2>
+            <button class="add-button" id="embed-add-button">Add Embed</button>
+        </div>
+        <br>
+        <div class="sub-field">
+            <h2>Footer</h2>
+            <label for="footer-text">Text</label><br>
+            <input type="text" id="footer-text" class="input-field" name="footer-text" placeholder="Text"><br>
+            <label for="footer-icon">Icon URL</label><br>
+            <input type="text" id="footer-icon" class="input-field" name="footer-icon" placeholder="Icon URL"><br>
+        </div>
+        <br>
+        <button id="submit-button" action="submit">Submit</button>
+        <button id="clear-button" action="clear">Clear</button><br>
+        <small>* indicates a required field</small>
+    </form>
+    <script src="./index.js"></script>
+</body>
+
+</html>

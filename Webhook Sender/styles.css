@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Manjari:wght@100;400;700&display=swap');
+
+:root
+{
+    --ash: #b3b3b3;
+    --primary-bg: #2f2f2f;
+    --blue: hsl(210, 100%, 56%);
+    --red: hsl(0, 100%, 56%);
+    --green: hsl(120, 100%, 25%);
+}
+
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: var(--primary-bg);
+    font-family: 'Manjari', sans-serif;
+    color: var(--ash);
+}
+
+form label
+{
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+h1
+{
+    font-weight: 700;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+h2
+{
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+}
+
+form .sub-field
+{
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--ash);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 70%;
+}
+
+.sub-field button
+{
+    margin-left: 85% !important;
+}
+
+.input-field
+{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--ash);
+    background-color: var(--primary-bg);
+    width: 70%;
+    color: white;
+}
+
+textarea.input-field
+{
+    resize: vertical;
+    font-family: 'Manjari', sans-serif;
+}
+
+#webhook-form
+{
+    text-align: center;
+}
+
+#submit-button
+{
+    background-color: var(--blue);
+}
+
+#submit-button:hover
+{
+    border: 5px solid hsla(210, 100%, 76%, 0.7);
+    cursor: pointer;
+}
+
+#clear-button
+{
+    background-color: var(--red);
+}
+
+#clear-button:hover
+{
+    border: 5px solid hsla(0, 100%, 76%, 0.7);
+    cursor: pointer;
+}
+
+#submit-button, #clear-button, .add-button
+{
+    padding: 10px 20px;
+    margin: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+
+.add-button
+{
+    margin-left: auto !important;
+    margin-right: 5px !important;
+    background-color: var(--green);
+    text-align: right;
+}
