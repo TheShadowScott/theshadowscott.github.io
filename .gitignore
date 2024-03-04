@@ -1,2 +1,7 @@
 *.css.map
 .vscode
+run-server.ps1
+pacakage-lock.json
+package.json
+tsconfig.json
+/node_modules

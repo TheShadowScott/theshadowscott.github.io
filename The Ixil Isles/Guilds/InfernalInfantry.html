@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infernal Infantry &ndash; Ixil Isles</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body>
+    <main>
+        <div include-html="../sidebar.html"></div>
+        <div class="vertical-stack">
+            <h1 class="ml-4 mt-2">Infernal Infantry</h1>
+            <h2 class="ml-4 mt-3">Basic Information</h2>
+            <div class="class-table">
+                <div class="d-flex justify-content-left ml-4">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th class="text-center" colspan="2">Infernal Infantry</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Allowed Classes</th>
+                                <td>Any, <span class="fst-italic">except</span> non-oathbreaker paladins and clerics
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Allowed Races</th>
+                                <td>Any, <span class="fst-italic">except</span> Aasmir</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Leader</th>
+                                <td>Asmodeus</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Alignment</th>
+                                <td>Lawful Evil, <span class="fst-italic">accepts</span> any non-good alignment</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div>
+                <p class="ml-4 descriptor">
+                    The Infernal Infantry is a guild of soldiers bound to the will of the Archdevil Asmodeus. The guild is
+                    based in
+                    Nessus, the deepest and most dangerous layer of the Nine Hells.
+                </p>
+             </div>
+            <hr>
+            <h2 class="ml-4">Ranks</h2>
+            <div class="class-table">
+                <div class="d-flex justify-content-left ml-4">
+                    <table class="table table-striped table-hover">
+                        <thead>
+                            <tr>
+                                <th class="text-center" colspan="3">Associate Ranks</th>
+                            </tr>
+                            <tr>
+                                <th>Rank Name</th>
+                                <th>Required Crests</th>
+                                <th>Guild Feats</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Initiate</th>
+                                <td>0</td>
+                                <td><span class="fst-italic">nil</span></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><span class="fst-italic">Pedes</span></th>
+                                <td>10</td>
+                                <td><span class="fst-italic">nil</span></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><span class="fst-italic">Signifer</span></th>
+                                <td>25</td>
+                                <td><span class="fst-italic"><abbr id="elem-res-1">Elemental Resistance</abbr></span></td>
+                            </tr>
+                            <tr>
+                                <th scope="col" colspan="3" class="text-center">Member Ranks &mdash; Warrant by Combat</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">Centurion</th>
+                                <td>50</td>
+                                <td><abbr id="innate-spl-1"><em>Innate Spellcasting:</em> Hellish Rebuke</abb>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><em>Centurio primi</em></th>
+                                <td>125</td>
+                                <td><abbr title="" id="store-reduction-1"><em>Minor price reduction</em></abbr></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><em>Centurio primus</em></th>
+                                <td>300</td>
+                                <td><abbr title="" id="pos-res"><em>Poison Resistance</em></abbr></td>
+                            </tr>
+                            <tr>
+                                <th scope="col" colspan="3" class="text-center">Officer Ranks &mdash; Warrant by Combat</th>
+                            </tr>
+                            <tr>
+                                <th scope="row"><em>Tribunus</em></th>
+                                <td>750</td>
+                                <td><abbr title="" id="devils-sight"><em>Devil's Sight</em></abbr></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><em>Praefectus</em></th>
+                                <td>2000</td>
+                                <td><abbr title="" id="store-reduction-2"><em>Major price reduction</em></abbr></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><em>Legate</em></th>
+                                <td>5000</td>
+                                <td><abbr title="" id="elem-res-2"><em>Elemental Immunity</em></abbr></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="vertical-stack ml-auto">
+        <img src="../img/ii.png" alt="Infernal Infantry" class="ml-auto img-fluid coa">
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="../index.js"></script>
+    <script>
+        document.getElementById("elem-res-1").title = "At Signifer rank, choose either fire or cold damage. You gain resistance to that damage type. You cannot change this choice.";
+        document.getElementById("innate-spl-1").title = "At Centurion rank, you gain the ability to cast Hellish Rebuke once per day without expending a spell slot.";
+        document.getElementById("store-reduction-1").title = "At Centurio primi rank, you gain a 10% discount on all items and services purchased from the Infernal Infantry.";
+        document.getElementById("pos-res").title = "At Centurio primus rank, you gain resistance to poison damage.";
+        document.getElementById("devils-sight").title = "At Tribunus rank, you gain the ability to see through magical and non-magical darkness, up to a range of 120 feet.";
+        document.getElementById("store-reduction-2").title = "At Praefectus rank, you gain a 25% discount on all items and services purchased from the Infernal Infantry.";
+        document.getElementById("elem-res-2").title = "At Legate rank, you gain immunity to fire and cold damage.";
+    </script>
+</body>
+
+</html>
