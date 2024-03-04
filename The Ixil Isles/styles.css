@@ -194,7 +194,7 @@ p {
 .sidebar {
   font-family: "Libre Baskerville", "Libre Franklin", "Times New Roman", serif !important;
   border-right: 0.3rem solid rgba(0, 0, 0, 0.5);
-  overflow-y: scroll;
+  overflow-y: hidden;
 }
 
 .mr-0 {

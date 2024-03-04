@@ -225,7 +225,7 @@ p
     font-family: $serif !important;
     // grey gradient right border
     border-right: 0.3rem solid rgba(0, 0, 0, 0.5);
-    overflow-y: scroll;
+    overflow-y: hidden;
 }
 
 .mr-0
