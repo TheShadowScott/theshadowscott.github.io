@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imzola &ndash; Ixil Isles</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <main>
+        <div include-html="../sidebar.html"></div>
+        <div class="vertical-stack">
+            <h1 class="ml-4 mt-2">Duchy of Imzola</h1>
+            <div class="ml-4 mt-1" id="main-stack"></div>
+            <div class="ml-4 mt-1">
+                <small class="descriptor">
+                    * This is a subset of the crimes against the person act, which was ratified meaning any crime involving depriving a person of personal liberty.
+                    Crimes most obscene typically refers to crimes of a sexual nature, but can also refer to other crimes that are considered to be particularly heinous.
+                </small>
+            </div>
+            <hr class="mx-auto" style="width: 95% !important;" />
+            <h2 class="ml-4">History</h2>
+            <p class="ml-4 descriptor">
+                Whilst Azuria is known for its production of white mages, Imzola is known for its (sometimes infamous) Deftol college, the worlds most prestigious
+                institution for combat mages, warlocks and necromancers. The questionable antics of the college's studies have weighed heavily on the nation's
+                criminal code, and unlike many nations Imzola had a very lax stance on the use of necromancy and other "crimes against the person". Importantly,
+                however, the worst of these crimes were ratified in a special act, in which they are called "crimes most obscene".
+            </p>
+            <p class="ml-4 descriptor">
+                The Duke of Imzola is the head of state, and also the head of Deftol's board of governors. Most
+                day-to-day governance (including that of the entire country) is handled by said board of governors,
+                and the Duke is largely a figurehead, although he retains some real power.
+            </p>
+            <p class="ml-4 descriptor">
+                Imzola is represented by the magician in the game of cards.
+            </p>
+        </div>
+        <div class="vertical-stack ml-auto">
+            <div class="vertical-stack ml-auto mr-2" style="display: inline-block;">
+                <img src="../img/DIZ.svg" alt="Arms of Azuria" class="mx-auto text-center img-fluid coa">
+                <p class="fst-italic mx-auto text-center">Vert, on a chief invected argent, three dogs passant azure</p>
+            </div>
+            <div class="mt-auto mx-auto">
+                <img class="mt-auto mx-auto img-fluid coa" src="../img/Tarot/I.jpg" alt="The Magician (Tarot I)" />
+            </div>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="../index.js"></script>
+    <script>
+        createNationDisplayBlock(
+            element = document.getElementById('main-stack'),
+            "Duchy of Imzola",
+            1.1e6,
+            "The Archduke of Krython",
+            "Krython",
+            "The Duke Armiston",
+            "Constitutional Monarchy",
+            ["Treason", "Crimes most obscene*"],
+            military = "Mostly Volunteer, some conscription for certain roles",
+            found = "(Independence from Elydius) 11th Chill, 194th year of the Second Purges, BE (4445)",
+            religion = "None: legally secular"
+        );
+    </script>
+</body>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="stateCOA24" width="500" height="500" viewBox="0 10 200 200">
+        <defs><clipPath id="heater_stateCOA24"><path d="m25,25 h150 v50 a150,150,0,0,1,-75,125 a150,150,0,0,1,-75,-125 z"/></clipPath><g id="fusil_stateCOA24">
+    <polygon points="100 55 130 100 100 145 70 100"/>
+  </g><radialGradient id="backlight_stateCOA24" cx="100%" cy="100%" r="150%"><stop stop-color="#fff" stop-opacity=".3" offset="0"/><stop stop-color="#fff" stop-opacity=".15" offset=".25"/><stop stop-color="#000" stop-opacity="0" offset="1"/></radialGradient><style>
+      g.secondary,path.secondary {fill: var(--secondary);}
+      g.tertiary,path.tertiary {fill: var(--tertiary);}
+    </style></defs>
+        <g clip-path="url(#heater_stateCOA24)"><rect x="0" y="0" width="200" height="200" fill="#377cd7"/><g fill="#ffe066" stroke="none"><path d="m25,25 h150 v50 a150,150,0,0,1,-75,125 a150,150,0,0,1,-75,-125 z" fill="none" stroke="#ffe066" stroke-width="5%" transform="scale(.85)" transform-origin="center"/></g><g fill="#fafafa" style="--secondary: #fafafa; --tertiary: #fafafa" stroke="#000"><use href="#fusil_stateCOA24" transform="translate(-10.000000000000009 -10.000000000000009) scale(1.1)"/></g></g>
+        <path d="m25,25 h150 v50 a150,150,0,0,1,-75,125 a150,150,0,0,1,-75,-125 z" fill="url(#backlight_stateCOA24)" stroke="#333"/></svg>

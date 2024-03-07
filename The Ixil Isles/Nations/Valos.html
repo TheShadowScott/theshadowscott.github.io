@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valos &ndash; Ixil Isles</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <main>
+        <div include-html="../sidebar.html"></div>
+        <div class="vertical-stack">
+            <h1 class="ml-4 mt-2">Kingdom of Valos</h1>
+            <div class="ml-4 mt-1" id="main-stack"></div>
+            <div class="ml-4 mt-1">
+                <small class="descriptor">
+                    * Crimes against the person was ratified meaning any crime involving depriving a person of personal liberty.
+                    This definition is broad and includes kidnapping, false imprisonment, human trafficking, &amp;c.
+                </small>
+            </div>
+            <hr class="mx-auto" style="width: 95% !important;" />
+            <h2 class="ml-4">History</h2>
+            <p class="ml-4 descriptor">
+                Unimpressed by the democratic reforms of the Enlightenment, the eastern consulate of then-Hergastia succeeded from the republic
+                under its limited time succession-by-referendum clause. However quickly after the succession, Valos fell into disarray, and was quickly
+                seized by the <em>Dix dynasty.</em> During this period, all humans were forcefully expelled from the country, and access into its borders
+                was heavily restricted.
+            </p>
+            <p class="ml-4 descriptor">
+                Despite the long lifetime of elves, the turnover rate for the throne is frequent, and the current ruler, Empereur Dix CCLXVII, is the 267th
+                ruler of the dynasty, for an average reign of just over nine years. The emperors are often assassinated and poisoned by others in line of the throne,
+                and the blood line has been diluted to the point where the next in line is often a distant cousin.
+            </p>
+            <p class="ml-4 descriptor">
+                Valos is represented by the moon in the game of cards.
+            </p>
+        </div>
+        <div class="vertical-stack ml-auto">
+            <div class="vertical-stack ml-auto mr-2" style="display: inline-block;">
+                <img src="../img/KVS.svg" alt="Arms of Azuria" class="mx-auto text-center img-fluid coa">
+                <p class="fst-italic mx-auto text-center">Per fess, vairé azure and argent; or, overall a bend gules</p>
+            </div>
+            <div class="mt-auto mx-auto">
+                <img class="mt-auto mx-auto img-fluid coa" src="../img/Tarot/XVIII.jpg" alt="The Moon (Tarot XIX)" />
+            </div>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="../index.js"></script>
+    <script>
+        createNationDisplayBlock(
+            element = document.getElementById('main-stack'),
+            "Kingdom of Valos",
+            5.43e5,
+            "Empereur Dix CCLXVII",
+            "Lenana",
+            null,
+            "Absolute Monarchy",
+            ["\"Unauthorised Humanity\"", "Crimes against the crown"],
+            military = "Compulsory Service (5 years; all genders)",
+            found = "(From Hergastia) 22nd Seed, 15th year of the Enlightenment RB (5016)",
+            religion = "The Elvish Pantheon"
+        );
+    </script>
+</body>

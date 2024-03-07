@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="stateCOA11" width="500" height="500" viewBox="0 10 200 200">
+        <defs><clipPath id="spanish_stateCOA11"><path d="m25,25 h150 v100 a75,75,0,0,1,-150,0 z"/></clipPath><g id="inescutcheon_stateCOA11"><path transform="translate(66 66) scale(.34)" d="m25,25 h150 v100 a75,75,0,0,1,-150,0 z"/></g><radialGradient id="backlight_stateCOA11" cx="100%" cy="100%" r="150%"><stop stop-color="#fff" stop-opacity=".3" offset="0"/><stop stop-color="#fff" stop-opacity=".15" offset=".25"/><stop stop-color="#000" stop-opacity="0" offset="1"/></radialGradient><style>
+      g.secondary,path.secondary {fill: var(--secondary);}
+      g.tertiary,path.tertiary {fill: var(--tertiary);}
+    </style></defs>
+        <g clip-path="url(#spanish_stateCOA11)"><rect x="0" y="0" width="200" height="200" fill="#26c061"/><g fill="#fafafa" stroke="none"><rect x="0" y="75" width="200" height="50"/></g><g fill="#fafafa" style="--secondary: #fafafa; --tertiary: #fafafa" stroke="#000"><use href="#inescutcheon_stateCOA11" transform="translate(6.25 0) scale(0.5)"/><use href="#inescutcheon_stateCOA11" transform="translate(50 0) scale(0.5)"/><use href="#inescutcheon_stateCOA11" transform="translate(93.75 0) scale(0.5)"/></g></g>
+        <path d="m25,25 h150 v100 a75,75,0,0,1,-150,0 z" fill="url(#backlight_stateCOA11)" stroke="#333"/></svg>

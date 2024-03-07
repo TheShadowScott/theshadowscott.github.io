@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zhi &ndash; Ixil Isles</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body>
+    <main>
+        <div include-html="../sidebar.html"></div>
+        <div class="vertical-stack">
+            <h1 class="ml-4 mt-2">The Zhi Theocracy</h1>
+            <div class="ml-4 mt-1" id="main-stack"></div>
+            <hr class="mx-auto" style="width: 95% !important;" />
+            <h2 class="ml-4">History</h2>
+            <p class="ml-4 descriptor">
+                The last great holdout of <em>Diabolus,</em> Zhi was founded on the blood of heretics expelled by the first Purges. Zhi is often found
+                on the end of international wars, on both offensive and defensive fronts. Although technically no crimes exists within Zhi,
+                those who are suspected of treason or mutiny are often found dead or missing. The military of Zhi consists of large assassination bands,
+                in addition to its standard military.
+            </p>
+            <p class="ml-4 descriptor">
+                The ruling party of Zhi, the Kel'Zhian, is a council of 3 high priest, each representing a different aspect of Diabolus (i.e,
+                <em>Death</em>, <em>Destruction</em> and <em>Deceit</em>). These high priest are selected by a variety of cruel competitions led by
+                the thorned crown, an ambassador of Diablous himself (although it is still unknown why Diabolus would need an ambassador, and why 
+                said ambassador is not on the Kel'Zhian).
+            </p>
+            <p class="ml-4 descriptor">
+                Zhi is represented by the devil in the game of cards.
+            </p>
+        </div>
+        <div class="vertical-stack ml-auto">
+            <div class="vertical-stack ml-auto mr-2" style="display: inline-block;">
+                <img src="../img/ZHT.svg" alt="Arms of Azuria" class="mx-auto text-center img-fluid coa">
+                <p class="fst-italic mx-auto text-center">Gules, an axe argent</p>
+            </div>
+            <div class="mt-auto mx-auto">
+                <img class="mt-auto mx-auto img-fluid coa" src="../img/Tarot/XV.jpg" alt="The Devil (Tarot XV) " />
+            </div>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="../index.js"></script>
+    <script>
+        createNationDisplayBlock(
+            element = document.getElementById('main-stack'),
+            "The Zhian Thearchy",
+            8.49e5,
+            "The Kel'Zhian",
+            "Qavhos",
+            null,
+            "Kratocratic Theocracy",
+            ["<em>de iure:</em> none", "<em>de facto:</em> treason, mutiny"],
+            military = "Volunteer",
+            found = "3rd year of the First Purges, BE (3753)",
+            religion = "Diabolus (The Diabolic Faith)"
+        );
+    </script>
+</body>

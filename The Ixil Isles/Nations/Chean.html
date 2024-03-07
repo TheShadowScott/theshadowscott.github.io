@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Che &ndash; Ixil Isles</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <main>
+        <div include-html="../sidebar.html"></div>
+        <div class="vertical-stack">
+            <h1 class="ml-4 mt-2">Chean Empire</h1>
+            <div class="ml-4 mt-1" id="main-stack"></div>
+            <div class="ml-4 mt-1 vertical-stack">
+                <small class="descriptor">
+                    * The Chean Empire is a confederation of dwarven clans, each of whom appoints a representative to the council of the Chean Empire.
+                    The council chooses the Kaiser form amongst their own, who is the head of state.
+                </small>
+                <small class="descriptor">
+                    &dagger; Crimes against the person was ratified meaning any crime involving depriving a person of personal liberty.
+                    This definition is broad and includes kidnapping, false imprisonment, human trafficking, &amp;c.
+                </small>
+            </div>
+            <hr class="mx-auto" style="width: 95% !important;" />
+            <h2 class="ml-4">History</h2>
+            <p class="ml-4 descriptor">
+                The sprawling mountains of Che are home to numerous and vast clans of dwarves, each with their own unique culture and history.
+                The clans have been in a state of near-constant war for centuries, and the only thing that has kept them from destroying each other is the
+                threat of humanity. The Chean Empire was formed in response to the second <em>War of Blood</em>, which took place in the First Age of Man
+                as a means to unite the clans and protect themselves from the humans.
+            </p>
+            <p class="ml-4 descriptor">
+                During the Inquisition, the human nation of <em>Nashruzju</em> split from the Chean Empire, which entirely encircles it. During the
+                Torchwood era, Che conceded additional land in its internals to <em>Aj'ji</em>, a nation of Tabaxi, in exchange for their support in the
+                game of cards.
+            </p>
+            <p class="ml-4 descriptor">
+                Che is represented by the strength card in the game of cards.
+            </p>
+        </div>
+        <div class="vertical-stack ml-auto">
+            <div class="vertical-stack ml-auto mr-2" style="display: inline-block;">
+                <img src="../img/CHE.svg" alt="Arms of Azuria" class="mx-auto text-center img-fluid coa">
+                <p class="fst-italic mx-auto text-center">Azure, a stags head affronté Or</p>
+            </div>
+            <div class="mt-auto mx-auto">
+                <img class="mt-auto mx-auto img-fluid coa" src="../img/Tarot/VIII.jpg" alt="Strength (Tarot VIII)" />
+            </div>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="../index.js"></script>
+    <script>
+        createNationDisplayBlock(
+            element = document.getElementById('main-stack'),
+            "Chean Empire",
+            5.76e5,
+            "Kaiser Eritrock Coppercloak",
+            "Che",null,
+            "Confederation of Monarchies*",
+            ["Treason", "Murder", "Crimes against the Person\u2020"],
+            military = "Volunteer",
+            found = "26th Chill, 149th year of the 2nd Age of Man, QK (1650)",
+            religion = "None: legally secular."
+        );
+    </script>
+</body>

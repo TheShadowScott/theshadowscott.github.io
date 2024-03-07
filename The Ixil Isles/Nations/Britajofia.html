@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Britajofia &ndash; Ixil Isles</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <main>
+        <div include-html="../sidebar.html"></div>
+        <div class="vertical-stack">
+            <h1 class="ml-4 mt-2">Kingdom of Britajofia</h1>
+            <div class="ml-4 mt-1" id="main-stack"></div>
+            <div class="ml-4 mt-1">
+                <small class="descriptor">
+                    * Crimes against the person was ratified meaning any crime involving depriving a person of personal liberty.
+                    This definition is broad and includes kidnapping, false imprisonment, human trafficking, &amp;c.
+                </small>
+            </div>
+            <hr />
+            <div class="ml-4 mt-1">
+                <small class="descriptor">
+                    Britajofia is a minor nation in the Ixil Isles, and is represented by the four of swords in the game of cards.
+                </small>
+            </div>
+        </div>
+        <div class="vertical-stack ml-auto">
+            <div class="vertical-stack ml-auto mr-2" style="display: inline-block;">
+                <img src="../img/KBJ.svg" alt="Arms of Azuria" class="mx-auto text-center img-fluid coa">
+                <p class="fst-italic mx-auto text-center">Vert, three ouroboros argent</p>
+            </div>
+            <div class="mt-auto mx-auto">
+                <img class="mt-auto mx-auto img-fluid coa" src="../img/Tarot/SIV.jpg" alt="Four of Swords" />
+            </div>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="../index.js"></script>
+    <script>
+        createNationDisplayBlock(
+            element = document.getElementById('main-stack'),
+            "Kingdom of Britajofia",
+            5.43e5,
+            "King Hælti II",
+            "Tenca",
+            "Prime Minister Johann Carlsberg",
+            "Constitutional Monarchy",
+            ["Treason", "Crimes against the person*", "Sedition", "Murder", "Espionage"],
+            military = "Volunteer",
+            found = "18th Gathering, 2nd year of the Great Cleansing, BE (4502)",
+            religion = "<em>de iure:</em> none; <em>de facto:</em> The Holy See&mdash;Western Division"
+        );
+    </script>
+</body>

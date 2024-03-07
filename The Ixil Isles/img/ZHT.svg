@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="stateCOA12" width="500" height="500" viewBox="0 10 200 200">
+        <defs><clipPath id="horsehead2_stateCOA12"><path d="M60 20c-5 20-10 35-35 55 25 35 35 65 30 100 20 0 35 10 45 26 10-16 30-26 45-26-5-35 5-65 30-100a87 87 0 01-35-55c-25 3-55 3-80 0z"/></clipPath><g id="hatchet_stateCOA12" stroke-width=".615">
+    <path d="M114.4 137.8c0 2.5 9.5 2.5 9.5 0l-.3-65.4c0-2.5-9-2.5-9-.1z"/>
+    <path class="secondary" d="M124.2 75.2c0-3-7.3-3-9.4-1.4-.5.4-.6 1-1.1 1.4-.6.3-4.3.3-5.4.3-11.1 0-23.9-13.3-26.4-14.8 0 0-6.4 10.4-6.4 29.6a72.4 72.4 0 0014.3 41.4s5.6-2.6 6.8-8.8c.9-4.1.5-9.9 1.5-14 2-8 10.6-8.8 10.6-8.8 0-.3-1.6-4-1.6-6.9 0-3.3 3.2-3.8 4.8-2.5.5.4.8 1.5.9 2.3v3.4c0 3 9.5 3 11.4 1.1V75.2z"/>
+    <path fill="#000" stroke="none" d="M83.5 68.7c-2.9 19.6-3.6 34.2 7.1 56-10.2-14.6-11.8-41.2-7.1-56zm30.7 8c.3 5.7.5 11.6 0 17.4-.3-5.3-.5-11.7 0-17.3z" opacity=".6"/>
+  </g><radialGradient id="backlight_stateCOA12" cx="100%" cy="100%" r="150%"><stop stop-color="#fff" stop-opacity=".3" offset="0"/><stop stop-color="#fff" stop-opacity=".15" offset=".25"/><stop stop-color="#000" stop-opacity="0" offset="1"/></radialGradient><style>
+      g.secondary,path.secondary {fill: var(--secondary);}
+      g.tertiary,path.tertiary {fill: var(--tertiary);}
+    </style></defs>
+        <g clip-path="url(#horsehead2_stateCOA12)"><rect x="0" y="0" width="200" height="200" fill="#d7374a"/><g fill="#fafafa" style="--secondary: #fafafa; --tertiary: #fafafa" stroke="#000"><use href="#hatchet_stateCOA12" transform="translate(-35.00000000000001 -35.00000000000001) scale(1.35)"/></g></g>
+        <path d="M60 20c-5 20-10 35-35 55 25 35 35 65 30 100 20 0 35 10 45 26 10-16 30-26 45-26-5-35 5-65 30-100a87 87 0 01-35-55c-25 3-55 3-80 0z" fill="url(#backlight_stateCOA12)" stroke="#333"/></svg>

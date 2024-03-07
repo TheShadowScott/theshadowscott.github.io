@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="stateCOA9" width="500" height="500" viewBox="0 10 200 200">
+        <defs><clipPath id="oldFrench_stateCOA9"><path d="m25,25 h150 v75 a100,100,0,0,1,-75,100 a100,100,0,0,1,-75,-100 z"/></clipPath><clipPath id="divisionClip_stateCOA9"><polygon points="0,0 100,100 200,0"/></clipPath><g id="inescutcheon_stateCOA9"><path transform="translate(66 66) scale(.34)" d="m25,25 h150 v75 a100,100,0,0,1,-75,100 a100,100,0,0,1,-75,-100 z"/></g><g id="ladder2_stateCOA9" stroke-width="1" transform="translate(-28 57) scale(0.3)">
+    <rect width="16.99" height="253.007" x="381.76" y="17.773" rx="5.434" ry="16.344"/>
+    <rect width="16.99" height="253.007" x="456.859" y="17.773" rx="5.434" ry="16.344"/>
+    <rect width="72.65" height="12.244" x="391.48" y="220.837" rx="5.434" ry="16.344"/>
+    <rect width="72.65" height="12.244" x="391.48" y="180.721" rx="5.434" ry="16.344"/>
+    <rect width="72.65" height="12.244" x="391.48" y="140.606" rx="5.434" ry="16.344"/>
+    <rect width="72.65" height="12.244" x="391.48" y="100.49" rx="5.434" ry="16.344"/>
+    <rect width="72.65" height="12.244" x="391.48" y="60.375" rx="5.434" ry="16.344"/>
+  </g><radialGradient id="backlight_stateCOA9" cx="100%" cy="100%" r="150%"><stop stop-color="#fff" stop-opacity=".3" offset="0"/><stop stop-color="#fff" stop-opacity=".15" offset=".25"/><stop stop-color="#000" stop-opacity="0" offset="1"/></radialGradient><style>
+      g.secondary,path.secondary {fill: var(--secondary);}
+      g.tertiary,path.tertiary {fill: var(--tertiary);}
+    </style></defs>
+        <g clip-path="url(#oldFrench_stateCOA9)"><rect x="0" y="0" width="200" height="200" fill="#ffe066"/><g clip-path="url(#divisionClip_stateCOA9)"><rect x="0" y="0" width="200" height="200" fill="#522d5b"/></g><g fill="#d7374a" style="--secondary: #d7374a; --tertiary: #d7374a" stroke="#000"><use href="#inescutcheon_stateCOA9" transform="translate(-50 -50) scale(1.5)"/></g><g fill="#fafafa" style="--secondary: #fafafa; --tertiary: #fafafa" stroke="#000"><use href="#ladder2_stateCOA9" transform="translate(25 25) scale(0.75)"/></g></g>
+        <path d="m25,25 h150 v75 a100,100,0,0,1,-75,100 a100,100,0,0,1,-75,-100 z" fill="url(#backlight_stateCOA9)" stroke="#333"/></svg>
